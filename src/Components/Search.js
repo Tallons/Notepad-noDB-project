@@ -25,7 +25,6 @@ class Search extends React.Component{
 
     return(
       <>
-      {/* < className="search-container"> */}
 
         <div>
           <input className="search-bar" placeholder="type here" value={this.state.userInput} onChange={(event) => this.setState({userInput: event.target.value})}/>

@@ -8,7 +8,6 @@ function SideBar (props){
     <div className="sidebar">
 
         <Search fileList={props.fileList}
-                filteredArray={props.filteredArray}
                 setFilteredArray={props.setFilteredArray}
         />
           <button className="create-file" onClick={() => props.createFile({})}>Create</button>

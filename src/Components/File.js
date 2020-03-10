@@ -13,11 +13,7 @@ const [isEditing, setEditing] = useState(false),
 
       console.log(expand)
       console.log(document.getElementById("test"))
-// function setReadingHeight () {
-//   if (document.querySelector(".textarea-box").style.overflow === )
-// }
-// {document.querySelector(".file-frame").style.height='800px'}}
-      // 
+
 return(
       <div id="test" className ={`${expand ? "file-frame frame-expanded" : "file-frame"}`}>
 

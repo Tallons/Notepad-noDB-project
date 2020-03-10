@@ -60,7 +60,7 @@ class Files extends React.Component{
     this.setState({
       fileList: res.data
       })
-    )
+    ).catch(error => console.log(error));
 
   }
 
@@ -97,7 +97,7 @@ class Files extends React.Component{
             filteredArray={this.state.filteredArray}
             setFilteredArray={this.setFilteredArray}
            />    
-        <div className="files-main-frame">
+        <section className="files-main-frame">
             <div className="info-box"></div>
 
             {
@@ -129,7 +129,7 @@ class Files extends React.Component{
                        /> }))
             }
 
-        </div>
+        </section>
         </div>
     )
   }
