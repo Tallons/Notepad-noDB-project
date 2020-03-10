@@ -1,0 +1,85 @@
+.file-frame{
+  height: 200px;
+  width: 90%;
+  background-color:rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 20px;
+  padding-right: 10px;
+  margin-top: 15px;
+  margin-left:15px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  box-shadow: 5px 5px 10px;
+  transition: .2s;
+}
+.frame-expanded{
+  min-height: 300px;
+}
+.selection-box{
+  height:100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.check-box{
+  height: 30px;
+  width: 30px;
+ }
+
+.file-info{
+  height: 90%;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:   rgb(255, 211, 226);
+  border-radius: 5px;
+  transition: .4s;
+
+}
+.info-expanded{
+  height: 90%;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:   rgb(255, 211, 226);
+  border-radius: 5px;
+}
+.file-header{
+  height: 40px;
+  width: 100%;
+  background-color: indianred;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 0 20px;
+  font-family:  sans-serif;
+  letter-spacing: 1px;
+}
+.file-title{
+  font-weight: bold;
+  font-size: 16px;
+}
+.date-stamp {
+  font-size: 14px;
+}
+.textarea-box{
+  padding-top: 5px;
+  height: 100%;
+  width: 95%;
+  overflow: auto;
+}
+textarea{
+  height: 100%;
+  width:100%
+}
+.cancel-button{
+  margin-top: 5px;
+
+}
+

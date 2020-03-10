@@ -1,0 +1,85 @@
+.sidebar{
+  padding-top: 170px;
+  height: 100vh;
+  position: fixed;
+  width: 20%;
+  background-color: indianred;
+  z-index:1;
+  padding-top:15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  box-shadow: 0 0 10px 5px;
+
+}
+.search-container{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  font-size:16px;
+  background-color: blue;
+}
+.search-bar {
+  width:80%;
+  height: 25px;
+}
+.search-button{
+  margin: 10px 0;
+  box-sizing: border-box;
+  width: 200px;
+  height: 40px;
+  border-radius: 3px;
+  border: none;
+  border: 2px solid rgb(255,239,213);
+  background-color: indianred;
+  color:rgb(255,239,213);
+}
+.search-button:hover{
+  border: 2px solid rgb(255,239,213);
+  background-color: rgb(255,239,213);
+  color: indianred;
+}
+.radio-container{
+  padding-bottom: 40px;
+  display:flex;
+  width:30%;
+  flex-direction: column;
+ 
+  align-items: flex-start;
+
+}
+
+.create-file{
+  margin: 10px 0;
+  box-sizing: border-box;
+  width: 200px;
+  height: 40px;
+  border-radius: 3px;
+  border: 2px solid rgb(255,239,213);
+  background-color: indianred;
+  color:rgb(255,239,213);
+  font-size: 16px;
+}
+.create-file:hover{
+  border: 2px solid rgb(255,239,213);
+  background-color: rgb(255,239,213);
+  color: indianred;
+}
+.delete-file{
+    box-sizing: border-box;
+    width: 200px;
+    height: 40px;
+    border-radius: 3px;
+    border: 2px solid rgb(255,239,213);
+    background-color: indianred;
+    color:rgb(255,239,213);
+    font-size: 16px;
+}
+.delete-file:hover{
+  border: 2px solid rgb(255,239,213);
+  background-color: rgb(255,239,213);
+  color: indianred;
+}
+
